@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/kobe/Desktop/cppDS/swap",
-      "program": "/Users/kobe/Desktop/cppDS/swap/build/Debug/outDebug"
+      "cwd": "/Users/kobe/Desktop/cppDS/selectionSort/part1",
+      "program": "/Users/kobe/Desktop/cppDS/selectionSort/part1/build/Debug/outDebug"
     }
   ]
 }
