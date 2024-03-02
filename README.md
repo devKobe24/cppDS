@@ -9,4 +9,4 @@
 |2월 27일| 선택 정렬(Selection Sort) |✅||
 |2월 28일| 교환(Swap) ||✅|
 |2월 29일| 선택 정렬(Selection Sort) ||✅|
-
+|3월 02일| 선택 정렬(Selection Sort) part 1 |✅||
