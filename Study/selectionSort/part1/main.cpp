@@ -2,10 +2,14 @@
 
 using namespace std;
 
-bool CheckSorted(int *arr, int size)
-{
+bool CheckSorted(int *arr, int size) {	
 	// TODO: 정렬 확인 함수 구현
-	return false;
+	for (int i = 0; i < size - 1; i++) {
+		if (arr[i] > arr[i + 1]) {
+			return false;
+		}
+	}
+	return true;	
 }
 
 int main()
@@ -28,93 +32,18 @@ int main()
 
 					// TODO: 정렬 해보기
 
-					if (i > j && i > k)
-					{
-						int max = 0;
-						int mid = 0;
-						int min = 0;
-
-						max = i;
-						
-						if (j < k)
-						{
-							mid = k;
-							min = j;
-						}
-						else
-						{
-							mid = j;
-							min = k;
-						}
-						i = min;
-						j = mid;
-						k = max;
-					}
-					else if (j > i && j > k)
-					{
-						int max = 0;
-						int mid = 0;
-						int min = 0;
-
-						max = j;
-						if (i < k)
-						{
-							mid = k;
-							min = i;
-						} else {
-							mid = i;
-							min = k;
-						}
-						i = min;
-						j = mid;
-						k = max;
-					}
-					else if (k > i && k > j)
-					{
-						int max = 0;
-						int mid = 0;
-						int min = 0;
-
-						max = k;
-						if (j < i)
-						{
-							mid = i;
-							min = j;
-						} else {
-							mid = j;
-							min = i;
-						}
-						i = min;
-						j = mid;
-						k = max;
+					if (arr[0] > arr[1]) {
+						swap(arr[0], arr[1]);
 					}
 
-					// if (i < j && i < k)
-					// {
-					// 	min = i;
-					// }
-					// else if (j < i && j < k)
-					// {
-					// 	min = j;
-					// }
-					// else if (k < i && k < j)
-					// {
-					// 	min = k;
-					// }
+					if (arr[1] > arr[2]) {
+						swap(arr[1], arr[2]);
+					}
 
-					// if (i > min && i < max)
-					// {
-					// 	mid = i;
-					// }
-					// else if (j > min && j < max)
-					// {
-					// 	mid = j;
-					// }
-					// else if (k > min && k < max)
-					// {
-					// 	mid = k;
-					// }
-
+					if (arr[0] > arr[1]) {
+						swap(arr[0], arr[1]);
+					}
+					
 					for (int e = 0; e < size; e++)
 					{
 						cout << arr[e] << " " << flush;
