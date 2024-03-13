@@ -14,4 +14,4 @@
 |3월 03일| 선택 정렬(Selection Sort) part 1 ||✅||
 |3월 06일| 선택 정렬(Selection Sort) part 2 ||✅|✅|
 |3월 07일| 선택 정렬(Selection Sort) part 3 |✅|||
-|3월 13일| 선택 정렬(Bubble Sort) |✅|||
+|3월 13일| 버블 정렬(Bubble Sort) |✅|||
